@@ -1,0 +1,91 @@
+
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 10px 20px;
+  /* background-color: darkblue; */
+}
+
+/* style of left here */
+
+.left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.lang {
+  font-size: 16px;
+  cursor: pointer;
+}
+.search {
+  display: flex;
+  align-items: center;
+  border: 0.5px solid lightgray;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+.search input {
+  border: none;
+  padding: 5px;
+}
+
+.search i {
+  font-size: 14px;
+  color: lightgray;
+  margin-left: 5px;
+}
+
+/* style of center here */
+
+.center {
+  flex: 1;
+  /* display: flex;
+  align-items: center; */
+  text-align: center;
+  font-weight: bold;
+  /* border: 1px solid black; */
+}
+
+/* style of right here */
+
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.menu-item {
+  margin-left: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.cart {
+  display: inline-block;
+  position: relative;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+.cart i{
+    font-size: 25px;
+
+}
+
+.cart-count {
+  position: absolute;
+  top: -6px;
+  right: -9px;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}
+
+.shop-name{
+  text-decoration: none;
+  
+}
